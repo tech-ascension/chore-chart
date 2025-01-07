@@ -1,0 +1,38 @@
+/* src/styles.css */
+
+/* Body and global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Ensure the app container takes full height */
+  html, body, #root {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Add some padding to the content area */
+  .content {
+    margin-left: 250px; /* To make room for the sidebar */
+    padding: 20px;
+    min-height: 100vh; /* Ensure content takes full height */
+  }
+  
+  /* Styling for links inside app */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Make sure the footer sticks to the bottom */
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  

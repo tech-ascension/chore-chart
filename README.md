@@ -68,3 +68,28 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Calendar / Chores
+
+Calendar has Schedule (Google Calendar view), Week, Month, Day
+
+Can add: 
+Dinner Plan, Chore, or Event
+
+Chores:
+
+Tasks can be created and assigned.
+- Task Name
+- Category
+- Completed
+- Deleted
+- RepeatInterval (nullable)
+- SelectedDays
+- RepeatUntil
+
+Task Schedule
+- Date
+- TimeStart
+- TimeEnd
+- Asignee_User_Id
